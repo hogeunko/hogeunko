@@ -22,13 +22,13 @@ public class Goods {
 
 	}
 	
-	public int getPrice(){
-		return price;
+	public int getStock(){
+		return stock;
 		
 	}
 	
-	public int getStock(){
-		return stock;
+	public void setStock(){
+		this.stock = stock;
 		
 	}
 
